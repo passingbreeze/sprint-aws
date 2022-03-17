@@ -1,0 +1,14 @@
+
+> client@0.1.0 test2
+> mocha ./test/https-test.js
+
+
+
+  HTTPS 적용을 확인합니다.
+    ✔ 1. HTTPS가 잘 적용되었는지 확인합니다. (41ms)
+    ✔ 2. Elastic Load Balancer 적용여부를 확인합니다.
+    ✔ 3. 작성한 아키텍처를 S3에 업로드하고, 주소를 .env에 작성하세요. (41ms)
+
+
+  3 passing (98ms)
+
