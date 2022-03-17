@@ -1,0 +1,16 @@
+
+> client@0.1.0 test1
+> mocha ./test/http-test.js
+
+
+
+  http - EC2와 S3 설정을 확인합니다.
+    ✔ 1. EC2 연결이 되었다면, 서버의 응답으로 "Hello World"를 받아야 합니다. (43ms)
+    ✔ 2. S3에 정적 파일들을 업로드 했다면, "Deployment Practice"가 출력되어야 합니다. (428ms)
+
+  http - RDS, EC2 연결
+    ✔ 3. RDS를 배포하고, EC2와 연결했으면, "/status" 요청에 대한 응답이 { isLogin: true, isConnectedToDatabase: true } 이어야 한다
+
+
+  3 passing (499ms)
+
